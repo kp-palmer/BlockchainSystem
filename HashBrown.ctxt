@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HashBrown
+comment1.params=input
+comment1.target=java.lang.String\ getSHA(java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=strToUse
+comment3.target=java.lang.String\ mine(java.lang.String)
+comment3.text=\ \n\ Mines\ until\ a\ hash\ with\ a\ valid\ difficulty\ is\ found\n
+comment4.params=strToUse
+comment4.target=boolean\ isValidHash(java.lang.String)
+comment4.text=\n\ @param\ strToUse\:\ hash\ generated\ by\ mine()\ method\n\ Checks\ to\ see\ if\ hash\ has\ three\ zeros\ at\ the\ beginning\n
+numComments=5

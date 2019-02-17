@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Blockchain
+comment0.text=\n\ Write\ a\ description\ of\ class\ Blockchain\ here.\n\n\ @author\ (Kristen)\n\ @version\ (2018-11-19)\n
+comment1.params=
+comment1.target=void\ fileStatus()
+comment1.text=\n\ Method\ checks\ to\ see\ if\ file\ with\ a\ given\ name\ exists\n\ \n\ If\ it\ doesn't,\ the\ program\ creates\ a\ file\ with\ that\ name.\n\ \n\ If\ it\ does,\ the\ program\ takes\ all\ of\ the\ information\ in\ the\ file,\n\ converts\ it\ to\ blocks,\ and\ adds\ the\ blocks\ to\ the\ chain\n
+comment2.params=
+comment2.target=void\ getDataFromFile()
+comment2.text=\ \n\ This\ method\ reads\ data\ from\ the\ CSV\ file\ and\ splits\ it\ into\ \n\ pieces\ that\ can\ be\ stored\ in\ blocks\n\ \n\ Blocks\ created\ from\ the\ data\ on\ the\ file\ are\ then\ added\ to\ chain\n
+comment3.params=b
+comment3.target=void\ putInfoOnFile(BlickBlock)
+comment3.text=\n\ @param\ b\:\ This\ is\ the\ block\ that's\ information\ will\ be\ added\n\ to\ the\ CSV\ file\n\ \n\ This\ method\ puts\ the\ text\ file\ in\ editing\ mode\ and\ adds\ the\ CSV\n\ formatted\ information\ of\ a\ given\ block\ b\ to\ the\ file\n\ \n\ Once\ the\ information\ is\ added,\ the\ file\ is\ set\ to\ view\ only\ mode\n
+comment4.params=
+comment4.target=void\ viewBlockInfo()
+comment4.text=\ \n\ Prints\ out\ the\ properly\ formatted\ information\ of\ a\ block\ in\ \n\ the\ chain\ to\ the\ console\n
+comment5.params=
+comment5.target=boolean\ addBlock()
+comment5.text=\n\ If\ there\ are\ no\ blocks\ in\ the\ chain,\ method\ takes\ in\ information\n\ to\ store,\ creates\ the\ genesis\ block,\ and\ writes\ the\ block's\ \n\ information\ to\ a\ CSV\ file\n\ \n\ unaltered()\ is\ called\ to\ make\ sure\ all\ previous\ blocks\ were\ \n\ correct\ before\ current\ block\ is\ created\n\ \n\ If\ the\ chain\ is\ all\ verified,\ user\ can\ submit\ the\ block\ and\ \n\ to\ the\ chain\ and\ have\ it\ written\ to\ the\ CSV\n
+comment6.params=
+comment6.target=boolean\ unaltered()
+comment6.text=\n\ @returns\ false\ if\ hash\ of\ a\ block\ doesn't\ match\ the\ prevHash\ \n\ value\ stored\ in\ the\ subsequent\ block,\ or\ if\ it\ doesn't\ match\ \n\ the\ remined\ hash\ of\ the\ block's\ information\ \n\ \n\ @returns\ true\ otherwise\n
+comment7.params=
+comment7.target=void\ printChain()
+comment7.text=\n\ Prints\ the\ length\ of\ the\ chain\ and\ the\ information\ about\ each\ \n\ block\ in\ the\ chain\n
+numComments=8

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BlickBlock
+comment0.text=\n\ Write\ a\ description\ of\ class\ BlickBlock\ here.\n\n\ @author\ (Kristen)\n\ @version\ (2018-11-19)\n
+comment1.params=num\ prevHash\ hash\ timestamp\ data
+comment1.target=BlickBlock(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=---\ Constructors\ ---
+comment2.params=allData
+comment2.target=BlickBlock(java.lang.String[])
+comment3.params=
+comment3.target=int\ getNum()
+comment3.text=---\ Getters\ ---
+comment4.params=
+comment4.target=java.lang.String\ getPrev()
+comment5.params=
+comment5.target=java.lang.String\ getHash()
+comment6.params=
+comment6.target=java.lang.String\ getTime()
+comment7.params=
+comment7.target=java.lang.String\ getData()
+comment8.params=
+comment8.target=java.lang.String\ toTextFile()
+comment9.params=
+comment9.target=java.lang.String\ printBlock()
+numComments=10
